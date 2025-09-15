@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrajaSeva - Rural Health Remedies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Medical Cross and PrajaSeva Branding -->
+    <header class="site-header">
+        <div class="logo-container">
+            <div class="medical-cross">
+                <div class="cross-vertical"></div>
+                <div class="cross-horizontal"></div>
+            </div>
+            <h1 class="site-title">PrajaSeva</h1>
+        </div>
+        <p class="tagline" data-key="tagline">Rural Health Remedies</p>
+    </header>
+
+    <!-- Page Transition Loading Animation -->
+    <div id="page-transition" class="page-transition">
+        <div class="rotating-cross">
+            <div class="cross-vertical"></div>
+            <div class="cross-horizontal"></div>
+        </div>
+    </div>
+
+    <!-- Loading Screen with Facts -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-cross">
+                <div class="cross-vertical"></div>
+                <div class="cross-horizontal"></div>
+            </div>
+            <h2 class="loading-title" data-key="loadingTitle">Loading Your Suggestions...</h2>
+            <div class="loading-facts">
+                <p class="fact-text" id="fact-text">Did you know? Rural areas often face medication shortages affecting 70% of the population.</p>
+            </div>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Page 1: Language Selection -->
+        <div id="language-page" class="page active">
+            <h1 data-key="welcome">Welcome to PrajaSeva</h1>
+            <p data-key="selectLanguage">Please select your preferred language:</p>
+            <div class="button-group">
+                <button class="lang-btn" data-lang="en" data-key="english">English</button>
+                <button class="lang-btn" data-lang="hi" data-key="hindi">हिंदी</button>
+                <button class="lang-btn" data-lang="kn" data-key="kannada">ಕನ್ನಡ</button>
+            </div>
+        </div>
+
+        <!-- Page 2: Input Type Selection -->
+        <div id="input-type-page" class="page">
+            <h2 data-key="inputTypeTitle">How would you like to provide information?</h2>
+            <p data-key="inputTypeInstruction">Choose whether to enter symptoms or a doctor's prescription.</p>
+            <div class="button-group">
+                <button class="input-btn prescription-priority" data-input-type="prescription" data-key="prescriptionBtn">💊 Enter Prescription</button>
+                <button class="input-btn" data-input-type="symptoms" data-key="symptomsBtn">🤒 Enter Symptoms</button>
+            </div>
+            <button class="back-btn" data-target="language-page" data-key="back">Back</button>
+        </div>
+
+        <!-- Page 3: Remedy Type & Input -->
+        <div id="remedy-type-page" class="page">
+            <h2 data-key="remedyTypeTitle">Select Remedy Type & Input</h2>
+            <p data-key="remedyTypeInstruction">Please enter your details below and choose the type of remedy you are looking for.</p>
+            <textarea id="symptom-prescription-input" rows="5"></textarea>
+            <div class="button-group">
+                <button class="remedy-btn" data-remedy-type="alternative-medication" data-key="alternativeMedicationBtn">Alternative Medication</button>
+            </div>
+            <button id="get-suggestions-btn" data-key="getSuggestionsBtn">Get Suggestions</button>
+            <button class="back-btn" data-target="input-type-page" data-key="back">Back</button>
+        </div>
+
+        <!-- Page 4: Suggestions -->
+        <div id="suggestions-page" class="page">
+            <h2 data-key="suggestionsTitle">Your Suggestions</h2>
+            <p data-key="suggestionsInstruction">Based on your input, here are some suggestions:</p>
+            <textarea id="suggestion-box" rows="10" readonly></textarea>
+            <button class="back-btn" data-target="remedy-type-page" data-key="back">Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

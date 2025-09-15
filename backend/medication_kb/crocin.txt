@@ -1,0 +1,3 @@
+Medication Name: Crocin
+Uses: Fever, Headache
+Side Effects: Nausea, allergic reactions

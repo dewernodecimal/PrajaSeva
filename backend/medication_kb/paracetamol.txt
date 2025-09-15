@@ -1,0 +1,3 @@
+Medication Name: Paracetamol
+Uses: Fever, Pain
+Side Effects: Liver damage (at high doses)

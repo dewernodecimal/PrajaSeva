@@ -1,0 +1,3 @@
+Medication Name: Cetirizine
+Uses: Sneezing, Runny nose, Itchy eyes, Hives
+Side Effects: Drowsiness, Dry mouth, Fatigue

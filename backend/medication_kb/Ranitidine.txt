@@ -1,0 +1,3 @@
+Medication Name: Ranitidine
+Uses: Heartburn, Acid indigestion, Stomach ulcers
+Side Effects: Headache, Dizziness, Constipation

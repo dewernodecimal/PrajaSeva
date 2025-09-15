@@ -1,0 +1,3 @@
+Medication Name: Dolo 650
+Uses: Fever, Pain
+Side Effects: Nausea, allergic reactions

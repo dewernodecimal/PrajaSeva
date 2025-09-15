@@ -1,0 +1,3 @@
+Medication Name: Omeprazole
+Uses: Heartburn, GERD (Gastroesophageal reflux disease), Stomach ulcers
+Side Effects: Headache, Abdominal pain, Nausea

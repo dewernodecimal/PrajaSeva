@@ -1,0 +1,3 @@
+Symptom: Fever
+Alternative Medications: Ibuprofen, Acetaminophen, Naproxen
+Lifestyle Remedies: Lukewarm sponge bath, Hydration, Rest

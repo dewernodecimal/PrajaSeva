@@ -1,0 +1,3 @@
+Medication Name: Ibuprofen
+Uses: Pain, Inflammation
+Side Effects: Stomach upset, heartburn

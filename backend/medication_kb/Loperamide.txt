@@ -1,0 +1,3 @@
+Medication Name: Loperamide
+Uses: Diarrhea, Reducing ileostomy output
+Side Effects: Dizziness, Constipation, Abdominal cramps
