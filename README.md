@@ -50,7 +50,4 @@ Voice Search: Integrate voice-based input to help users with low literacy.
 Offline Functionality: Enable a Progressive Web App (PWA) to allow basic functionality without an internet connection.
 
 👥 The Team
-Vibhav Satish
-Vedant Vijay Gurav 
-
-Happy Hacking!
+IntelliGears
